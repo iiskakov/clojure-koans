@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *~
 bin
 releases
@@ -83,6 +84,12 @@ $RECYCLE.BIN/
 pom.xml
 pom.xml.asc
 *jar
+=======
+pom.xml
+pom.xml.asc
+*.jar
+*.class
+>>>>>>> b1978960abd8ab7a951f7858f38d0ea1164dd35d
 /lib/
 /classes/
 /target/
@@ -204,3 +211,5 @@ sftp-config.json
 # Vagrant
 .vagrant/
 ubuntu-xenial-16.04-cloudimg-console.log
+=======
+.cpcache/
