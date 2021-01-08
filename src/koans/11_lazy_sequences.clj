@@ -1,5 +1,6 @@
 (ns koans.11-lazy-sequences
-  (:require [koan-engine.core :refer :all]))
+  (:require [koan-engine.core :refer :all])
+  (:require [clojure.string :as str]))
 
 (meditations
   "There are many ways to generate a sequence"
@@ -26,3 +27,4 @@
   "Iteration can be used for repetition"
   (= (repeat 100 "hello")
      (take 100 (iterate identity "hello"))))
+
